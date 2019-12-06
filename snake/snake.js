@@ -1,7 +1,4 @@
-/*
-Create by Learn Web Developement
-Youtube channel : https://www.youtube.com/channel/UC8n8ftV94ZU_DJLOLtrpORA
-*/
+
 
 function test (diff){
 const cvs = document.getElementById("snake");
@@ -147,7 +144,6 @@ function draw(){
     ctx.fillText(score,2*box,1.6*box);
 }
 
-// call draw function every 100 ms
 
 let game = setInterval(draw, diff);
 
