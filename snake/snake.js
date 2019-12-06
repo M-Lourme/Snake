@@ -3,7 +3,7 @@ Create by Learn Web Developement
 Youtube channel : https://www.youtube.com/channel/UC8n8ftV94ZU_DJLOLtrpORA
 */
 
-function test (){
+function test (diff){
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext("2d");
 
@@ -149,7 +149,7 @@ function draw(){
 
 // call draw function every 100 ms
 
-let game = setInterval(draw, 100);
+let game = setInterval(draw, diff);
 
 }
 
